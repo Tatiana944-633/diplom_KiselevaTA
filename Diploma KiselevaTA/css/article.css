@@ -1,0 +1,37 @@
+
+
+.pic{
+    width: 200px;
+
+}
+.article__pic{
+
+    display: flex;
+    border: solid rgb(193, 220, 220);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.article__item{
+    margin-top: 40px;
+    font-weight: 400; 
+	font-size: 24px; 
+	line-height: 28px; 
+	color: black;
+    margin-bottom: 45px;   	
+    font-weight: bold; 
+  
+}
+.article__text{
+    font-weight: 400; 
+	font-size: 24px; 
+	line-height: 28px; 
+	color: black;
+    margin-top: 20px;
+
+}
+
+.nav__item__basket{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

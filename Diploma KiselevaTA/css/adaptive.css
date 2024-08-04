@@ -1,0 +1,332 @@
+@media screen and (min-width:1350px) and (max-width:10000px)  {
+	.slideshow-container {
+		display: none;
+	}
+  .Slides__dot {
+    display: none;
+
+  }
+
+  .menu__item{
+    display: none;
+
+  }
+
+}
+
+@media screen and (min-width:0px) and (max-width:1350px)  {
+	.header__wector__left {
+		display: none;
+	}
+  .menu__item{
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:1248px)  {
+	  .nav {
+    display: flex;
+    grid-template-columns: 49% 1% 49%;
+    
+  }
+
+  .header__semicircle{
+    
+    display: none;
+  }
+  .header__flower{
+    display: none;
+   
+} 
+.header__flower__1{
+    background-image: url('../img/flower_black.png');
+    width: 411px;
+    height: 513.98px;
+    position: absolute;
+    background-repeat: no-repeat; 
+    right: 170px;
+    top: 290px;
+    z-index: 999;
+    flex-direction: row;
+    
+} 
+
+.header__wector__right{
+  z-index: 1000;
+}
+.slideshow-container, .Slides__dot{
+  display: block;
+}
+
+.blog__img{
+		width: 80%;
+		height: 70%;		
+		margin: 50px;
+
+}
+	button{
+		margin: 50px;
+
+}
+	.gallery__block{
+    display: none;
+	
+}
+ 
+.blog__best {
+	display: inline-block;
+}
+.pustishka{
+	
+	display: none;
+}
+.reviews__block{
+	display: inline-block;
+  
+}
+.block__1{
+	width: 100%;
+}
+.reviews__text{
+  margin: 48px;
+}
+
+.reviews__star{
+	display: none;
+
+}
+
+}
+
+@media screen and (min-width:0px) and (max-width:1098px)  {
+
+.header__flower__1{
+ display: none;
+}
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:1000px)  {
+.container__title{
+  width: auto;
+}
+.header__wector__right{
+  display: none;
+}
+.nav__item__link{
+  display: block;
+}
+
+.blog__best {
+  display: inline-block;
+}
+.container{
+    display: block;
+    text-align: center;
+
+}
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:890px)  {
+.nav {
+  display: none;
+
+}
+
+.menu__item__link{
+  padding: 5px;
+  font-weight: 200; 
+  font-size: 15px; 
+  line-height: 15px; 
+  color: black;
+  font-weight: bold;
+  
+}
+  
+.menu__item {
+  background-color: white;  
+  display: block;
+  padding-top: 28px;
+  padding-bottom: 38px;
+	z-index: 1003;
+  
+}
+.mob__menu, .navigation, .header, .nav{
+  
+  width: 100%;
+
+}
+.menu__item__link a{
+  color: #717171;
+
+}
+.categories{
+  margin-top: 220px;
+}
+
+.slideshow-container, .Slides__dot{
+  display: block;
+
+}
+
+
+.nav__item__link, .nav__item__link__1, .nav__item__link__2 {
+  gap: 0px;
+}
+
+.footer{
+  display: block;
+  height: 470px;
+}
+.footer div, .footer__block__right div,  .footer__block__left div{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.footer__block__right{
+  margin-top: 120px;
+
+}
+
+.basement{
+	margin-top: 240px;
+  margin-left: -190px;
+}
+.basement {
+  text-align: center;
+
+}
+
+  }
+
+@media screen and (min-width:0px) and (max-width:771px)  {
+  body{
+    width: 500px;
+  }
+	.blog__item {
+		width: 100%;
+	}
+
+.header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+height: auto;
+}
+
+.header__subtitle {
+	font-size: 29px;
+	line-height: 35px;
+}
+
+
+.header__txt {
+	font-size: 29px;
+	line-height: 41px;
+}
+
+.article__block {
+	width: 100%;
+	
+}
+
+.categories{
+  margin-top: 250px;
+  display: block;
+}
+
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
